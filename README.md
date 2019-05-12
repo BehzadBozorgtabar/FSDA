@@ -1,8 +1,5 @@
 # Using Photorealistic Face Synthesis and Domain Adaptation to Improve Facial Expression Analysis
-This repository includes the training and testing codes for: "Using Photorealistic Face Synthesis and Domain Adaptation to
-Improve Facial Expression Analysis".
-
-![](https://github.com/CreativePapers/ECCV2018/blob/master/146_fake.png)
+This repository includes the training and testing codes for: "Using Photorealistic Face Synthesis and Domain Adaptation to Improve Facial Expression Analysis".
 
 ### Dependencies
 - [Python2.7](https://www.anaconda.com/download/#linux)
@@ -21,28 +18,21 @@ Improve Facial Expression Analysis".
 
 ### Clone the repository
 ```
-$ git clone https://github.com/CreativePapers/ECCV2018.git
-cd ECCV2018-master
+$ git clone https://github.com/BehzadBozorgtabar/FSDA.git
+cd master
 ```
 ### Train
 ```
-python expression_synthesis.py --mode='train'
+python synthesis.py --mode='train'
 ```
 ### Test
 ```
-python expression_synthesis.py --mode='test'
+python synthesis.py --mode='test'
 ```
 ### Face Synthesis Model
 
-![](https://github.com/CreativePapers/ECCV2018/blob/master/Diagram.png)
+![](https://github.com/BehzadBozorgtabar/FSDA/blob/master/main.png)
 
-
-
-
-### Sample Results 
-
-
-![](https://github.com/CreativePapers/ECCV2018/blob/master/10_fake.png)
 
 
 
